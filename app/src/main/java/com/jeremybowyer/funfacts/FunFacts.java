@@ -3,7 +3,7 @@ package com.jeremybowyer.funfacts;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class FunFactsActivity extends AppCompatActivity {
+public class FunFacts extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -11,3 +11,4 @@ public class FunFactsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_fun_facts);
     }
 }
+
